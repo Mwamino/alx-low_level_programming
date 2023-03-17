@@ -1,4 +1,4 @@
-gcc -Wall
+gcc -Wall -pedantic -Werror -Wextra -std=gnu89 5-print_numbers.c -o 5-print_numbers
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
