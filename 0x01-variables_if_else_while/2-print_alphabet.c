@@ -1,18 +1,22 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
+
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * main - Code entry
+ * Description: Print alphabet in lowercase
+ * Return: 0
  */
+
 int main(void)
 {
-	char low;
+	char ch = 'a';
 
-	for (low = 'a'; low <= 'z'; low++)
-		putchar(low);
-		printf("\n");
-
-	return (0);
+	/code goes here/
+	while (ch <= 'z')
+	{
+		putchar(ch);
+		ch++;
+	}
+	printf("\n");
+	return (0);
 }
