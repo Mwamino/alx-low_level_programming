@@ -25,5 +25,5 @@ int main(void)
 		uc++;
 	}
 	printf("\n");
-	return (0);
+	return (0);
 }
