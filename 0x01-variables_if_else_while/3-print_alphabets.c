@@ -13,7 +13,7 @@ int main(void)
 	char lc = 'a';
 	char uc = 'A';
 
-	/Code goes here/
+	/*Code goes here*/
 	while (lc <= 'z')
 	{
 		putchar(lc);
@@ -25,5 +25,5 @@ int main(void)
 		uc++;
 	}
 	printf("\n");
-	return (0);
+	return (0);
 }

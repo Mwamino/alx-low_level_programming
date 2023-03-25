@@ -1,18 +1,20 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
+
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * main - Code entry
+ * Description: printing digits of base from 0
+ * Return: 0
  */
+
 int main(void)
 {
-	int d;
+	int a;
 
-	for (d = '0'; d <= '9'; d++)
-		putchar(d);
-		putchar('\n');
-
+	for (a = 0; a <= 9; a++)
+	{
+		putchar(a + '0');
+	}
+	putchar('\n');
 	return (0);
 }

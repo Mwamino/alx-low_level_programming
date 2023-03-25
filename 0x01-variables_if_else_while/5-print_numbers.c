@@ -1,19 +1,20 @@
-gcc -Wall -pedantic -Werror -Wextra -std=gnu89 5-print_numbers.c -o 5-print_numbers
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
+
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * main - Code entry
+ * Description: Print digits of base 10 from 0
+ * Return:0
  */
+
 int main(void)
 {
 	int i;
 
-	for (i = 0; i < 10; i++)
-		printf("%d", i);
-		printf("\n");
-
+	for (i = 0; i <= 9; i++)
+	{
+		printf("%i", i);
+	}
+	printf("\n");
 	return (0);
 }
