@@ -4,23 +4,19 @@
  * _strncat -  concatenates strings
  * @src: string value
  * @dest: string value
+ * @n: Number of bytes
  * Return: pointer to resulting string dest
  */
 
 char *_strncat(char *dest, char *src, int n)
 {
 	int a = 0;
-	int b = n;
+	int dest_len = 0;
 
-	while (dest[a] != '\0')
-	{
-		a++;
-	}
-	while (src[b] != 'n')
-	{
-		dest[a] = src[b];
-	        a++;
-		b++;
-	}
-	return(dest);
+	while (dest[a++])
+		dest_len++;
+	for (a = 0; src[a] && a < n; a++)
+		dest[dest_len++] = src[a];
+	return (dest);
 }
+
