@@ -3,9 +3,9 @@
 int sqrts(int n, int i);
 
 /**
- * _sqrt_recursion -  natural square root of a number
- * @n: integer number
- * Return: -1 if n has no natural square root
+ * _sqrt_recursion - natural squareroot of a number
+ * @n: The number
+ * Return: -1 if n doesn't have a natural squareroot
  */
 
 int _sqrt_recursion(int n)
